@@ -1,0 +1,98 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center container on page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+/* Main container */
+.container {
+  width: 350px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Title */
+.title h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input box */
+.insert-number-here input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Input focus effect */
+.insert-number-here input:focus {
+  border-color: #007bff;
+}
+
+/* Button container */
+.submit-button {
+  margin-top: 20px;
+}
+
+/* Button styling */
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover */
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Result text */
+.result {
+  margin-top: 20px;
+}
+
+.result p {
+  font-size: 16px;
+  color: #333;
+}
+
+.right {
+  background-color: rgb(39, 185, 39);
+  color: white;
+}
+
+.wrong {
+  background-color: red;
+  color: white;
+}
+
+.right,
+.wrong {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+
